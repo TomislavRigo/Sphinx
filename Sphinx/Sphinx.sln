@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sphinx.Repository", "Sphinx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphinx.DAL", "Sphinx.DAL\Sphinx.DAL.csproj", "{48AE1113-5140-4201-BBC5-085D74149ADD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphinx.Web", "Sphinx.Web\Sphinx.Web.csproj", "{0DDFB0E4-74B9-4011-955B-1E7B34AFF23E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{48AE1113-5140-4201-BBC5-085D74149ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48AE1113-5140-4201-BBC5-085D74149ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48AE1113-5140-4201-BBC5-085D74149ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDFB0E4-74B9-4011-955B-1E7B34AFF23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDFB0E4-74B9-4011-955B-1E7B34AFF23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDFB0E4-74B9-4011-955B-1E7B34AFF23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDFB0E4-74B9-4011-955B-1E7B34AFF23E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
