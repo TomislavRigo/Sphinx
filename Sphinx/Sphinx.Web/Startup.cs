@@ -1,4 +1,8 @@
-﻿namespace Sphinx.Web
+﻿using Microsoft.EntityFrameworkCore;
+using Sphinx.DAL;
+using Sphinx.Web.Infrastructure;
+
+namespace Sphinx.Web
 {
     public class Startup
     {
@@ -11,9 +15,12 @@
 
         public void ConfigureServices(IServiceCollection services)
         {
-            //
-            // Add bindings here!
-            //
+            services.AddDbContext<SphinxDbContext>(options =>
+            {
+                options.UseSqlServer("CONNECTION STRING");
+            }, ServiceLifetime.Transient);
+
+            ConfigurationBootstraping.Register(services);
 
             services.AddMvc();
 

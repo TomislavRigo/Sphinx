@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sphinx.Service", "Sphinx.Se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sphinx.Repository", "Sphinx.Repository\Sphinx.Repository.csproj", "{49993A28-92AF-448E-BD19-3F34DF52097A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphinx.DAL", "Sphinx.DAL\Sphinx.DAL.csproj", "{48AE1113-5140-4201-BBC5-085D74149ADD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sphinx.DAL", "Sphinx.DAL\Sphinx.DAL.csproj", "{48AE1113-5140-4201-BBC5-085D74149ADD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphinx.Web", "Sphinx.Web\Sphinx.Web.csproj", "{0DDFB0E4-74B9-4011-955B-1E7B34AFF23E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sphinx.Web", "Sphinx.Web\Sphinx.Web.csproj", "{0DDFB0E4-74B9-4011-955B-1E7B34AFF23E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
